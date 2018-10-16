@@ -9,7 +9,7 @@ var cheerio = require("cheerio");
 var app = express();
 
 // Database configuration
-var databaseUrl = "mongodb://localhost:27017/websnips";
+var databaseUrl = "mongodb://maheadjr:CCDD!ccdd1$@ds135003.mlab.com:35003/heroku_11ghc0qg";
 var collections = ["snippets"];
 
 // Hook mongojs configuration to the db variable
