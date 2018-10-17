@@ -20,7 +20,7 @@ db.on("error", function(error) {
 
 // Main route (simple Hello World Message)
 app.get("/", function(req, res) {
-  res.send("snip this");
+  res.json("snip this");
 });
 
 // Retrieve data from the db
